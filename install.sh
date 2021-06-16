@@ -218,7 +218,7 @@ ssl_install(){
 
     curl  https://get.acme.sh | sh
     judge "安装 SSL 证书生成脚本"
-
+    acme.sh  --register-account  --server zerossl \
 }
 domain_check(){
     stty erase '^H' && read -p "请输入你的域名信息(eg:www.wulabing.com):" domain
