@@ -181,7 +181,7 @@ v2ray_install(){
 
     mkdir -p /root/v2ray && cd /root/v2ray
     wget https://raw.githubusercontent.com/jimben526/v2ray/master/go.sh
-    wget https://github.com/mikewubox/v2ray/raw/master/v2ray427/v2ray-linux-64.zip 
+    wget https://github.com/jimben526/v2ray/raw/master/v2ray427/v2ray-linux-64.zip 
     ## wget http://install.direct/go.sh
     chmod 777 go.sh
     chmod 777 v2ray-linux-64.zip
